@@ -107,9 +107,7 @@ h2 + span {
     cursor: default;
 }
 
-
-@media screen and (max-width: 1380px) {
-
+@media screen and  (max-height: 850px) {
     h2 {
         font-size: 38px;
     }
@@ -136,7 +134,39 @@ h2 + span {
     }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1380px) {
+
+        h2 {
+            font-size: 38px;
+        }
+
+        h2 + span {
+            font-size: 15px;
+        }
+
+        .about .inner-text p {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        .about .mail {
+            font-size: 16px;
+        }
+
+        .about .inner-text {
+            margin: 35px 0 60px;
+        }
+
+        h1 img{
+            width: 290px;
+        }
+}
+
+@media screen and (max-width: 1040px) {
+
+    h2 {
+        font-size: 38px;
+    }
 
     footer .inner,
     footer h5 {
@@ -183,5 +213,43 @@ h2 + span {
     .about .inner-text p {
         font-size: 14px;
         line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    h1 img {
+        width: 170px;
+    }
+
+    .about .inner-text {
+        margin: 15px 0 15px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .about .inner-text p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .about .inner {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .inner {
+        padding: 0 10px;
+    }
+
+    footer .inner, footer h5 {
+        font-size: 13px;
+        line-height: 14px;
+    }
+
+    footer .copyright {
+        margin-top: 15px;
     }
 }
